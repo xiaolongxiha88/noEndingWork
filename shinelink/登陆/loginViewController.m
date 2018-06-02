@@ -41,6 +41,7 @@
 #import "useToWifiView1.h"
 #import "payView1.h"
 
+#import "HomeWattVC.h"
 
 
 
@@ -1056,7 +1057,9 @@ NSLog(@"体验馆");
                                 if ([_OssFirst isEqualToString:@"Y"]) {
                                     ossFistVC *OSSView=[[ossFistVC alloc]init];
                                     OSSView.serverListArray=[NSMutableArray arrayWithArray:serverListArray];
-                                    [self.navigationController pushViewController:OSSView animated:NO];
+//                                    [self.navigationController pushViewController:OSSView animated:NO];
+                                    [self.navigationController pushViewController:[HomeWattVC new] animated:YES];
+
                                 }else{
                               
                                     
