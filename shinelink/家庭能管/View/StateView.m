@@ -33,16 +33,16 @@
     moreImageView.image = [UIImage imageNamed:image2Str];
     [self addSubview:moreImageView];
     
-    UILabel *titleLB = [[UILabel alloc] initWithFrame:CGRectMake(headImageView.xmg_x+headImageView.xmg_width+10, 11, 93*NOW_SIZE, 14)];
+    UILabel *titleLB = [[UILabel alloc] initWithFrame:CGRectMake(headImageView.xmg_x+headImageView.xmg_width+10, 11, 100*NOW_SIZE, 14)];
     titleLB.textAlignment = NSTextAlignmentLeft;
-    titleLB.font = [UIFont systemFontOfSize:14];
+    titleLB.font = [UIFont systemFontOfSize:14*HEIGHT_SIZE];
     titleLB.textColor = color;
     titleLB.text = title;
     [self addSubview:titleLB];
     
     UILabel *dayEnergyLB = [[UILabel alloc] initWithFrame:CGRectMake(0, 38, self.xmg_width/2, 17*HEIGHT_SIZE)];
     dayEnergyLB.textAlignment = NSTextAlignmentCenter;
-    dayEnergyLB.font = [UIFont systemFontOfSize:22];
+    dayEnergyLB.font = [UIFont systemFontOfSize:22*HEIGHT_SIZE];
 //    dayEnergyLB.textColor = COLOR(6, 158, 254, 1);
     dayEnergyLB.textColor = color;
 
@@ -51,21 +51,21 @@
     
     UILabel *dayLB = [[UILabel alloc] initWithFrame:CGRectMake(0, dayEnergyLB.xmg_y+dayEnergyLB.xmg_height+15, self.xmg_width/2, 13*HEIGHT_SIZE)];
     dayLB.textAlignment = NSTextAlignmentCenter;
-    dayLB.font = [UIFont systemFontOfSize:14];
+    dayLB.font = [UIFont systemFontOfSize:14*HEIGHT_SIZE];
     dayLB.textColor = COLOR(102, 102, 102, 1);
     dayLB.text = @"今日";
     [self addSubview:dayLB];
     
     UILabel *monthEnergyLB = [[UILabel alloc] initWithFrame:CGRectMake(self.xmg_width/2, 38, self.xmg_width/2, 17*HEIGHT_SIZE)];
     monthEnergyLB.textAlignment = NSTextAlignmentCenter;
-    monthEnergyLB.font = [UIFont systemFontOfSize:22];
+    monthEnergyLB.font = [UIFont systemFontOfSize:22*HEIGHT_SIZE];
 //    monthEnergyLB.textColor = COLOR(6, 158, 254, 1);
     monthEnergyLB.textColor = color;
     monthEnergyLB.text = text2;
     [self addSubview:monthEnergyLB];
     UILabel *monthLB = [[UILabel alloc] initWithFrame:CGRectMake(self.xmg_width/2, monthEnergyLB.xmg_y+monthEnergyLB.xmg_height+15, self.xmg_width/2, 13*HEIGHT_SIZE)];
     monthLB.textAlignment = NSTextAlignmentCenter;
-    monthLB.font = [UIFont systemFontOfSize:14];
+    monthLB.font = [UIFont systemFontOfSize:14*HEIGHT_SIZE];
     monthLB.textColor = COLOR(102, 102, 102, 1);
     monthLB.text = @"当月";
     [self addSubview:monthLB];

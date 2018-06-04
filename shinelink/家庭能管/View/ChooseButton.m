@@ -14,7 +14,7 @@
     [self setImage:[UIImage imageNamed:imageStr] forState:UIControlStateNormal];
     [self setTitleColor:COLOR(102, 102, 102, 1) forState:UIControlStateNormal];
     [self setTitle:title forState:UIControlStateNormal];
-    self.titleLabel.font = [UIFont systemFontOfSize:14];
+    self.titleLabel.font = [UIFont systemFontOfSize:14*HEIGHT_SIZE];
     self.backgroundColor = [UIColor whiteColor];
     ViewBorderRadius(self, 5, 0, [UIColor clearColor]);
     
@@ -29,8 +29,8 @@
     CGRect btnFrame = self.bounds;
 
     UIImageView *imageView = self.imageView;
-    int imageWidth = 41;
-    int imageHegith = 39;
+    int imageWidth = 41*NOW_SIZE;
+    int imageHegith = 39*HEIGHT_SIZE;
     self.imageView.bounds = CGRectMake(0, 0, imageWidth, imageHegith);
     
 

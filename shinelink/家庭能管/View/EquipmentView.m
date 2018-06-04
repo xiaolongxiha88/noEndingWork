@@ -24,14 +24,14 @@
     UILabel *equipmentNameLB = [[UILabel alloc] initWithFrame:CGRectMake(equipmentTypeImgView.xmg_x+equipmentTypeImgView.xmg_width+11, 14, 200, 14)];
     equipmentNameLB.textAlignment = NSTextAlignmentLeft;
     equipmentNameLB.textColor = COLOR(102, 102, 102, 1);
-    equipmentNameLB.font = [UIFont systemFontOfSize:14];
+    equipmentNameLB.font = [UIFont systemFontOfSize:14*HEIGHT_SIZE];
     equipmentNameLB.text = name;
     [self addSubview:equipmentNameLB];
     
-    UILabel *expendLB = [[UILabel alloc] initWithFrame:CGRectMake(equipmentNameLB.xmg_x, equipmentNameLB.xmg_y+equipmentNameLB.xmg_height+13, 200, 24)];
+    UILabel *expendLB = [[UILabel alloc] initWithFrame:CGRectMake(equipmentNameLB.xmg_x, equipmentNameLB.xmg_y+equipmentNameLB.xmg_height+13, 200, 24*HEIGHT_SIZE)];
     expendLB.numberOfLines = 0;
     expendLB.textAlignment = NSTextAlignmentLeft;
-    expendLB.font = [UIFont systemFontOfSize:10];
+    expendLB.font = [UIFont systemFontOfSize:10*HEIGHT_SIZE];
     expendLB.textColor = COLOR(153, 153, 153, 1);
     expendLB.text = [NSString stringWithFormat:@"日消耗:\n%@kWh",dosage];
     [self addSubview:expendLB];

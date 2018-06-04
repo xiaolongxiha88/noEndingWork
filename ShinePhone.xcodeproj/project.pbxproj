@@ -43,6 +43,12 @@
 		0456D68B20C2756E00CCEB82 /* ChooseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456D66620C2756E00CCEB82 /* ChooseButton.m */; };
 		0456D68C20C2756E00CCEB82 /* EquipmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456D66820C2756E00CCEB82 /* EquipmentView.m */; };
 		0456D68D20C2756E00CCEB82 /* StateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456D66A20C2756E00CCEB82 /* StateView.m */; };
+		0456D69920C2818800CCEB82 /* ShineBoostVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456D69820C2818800CCEB82 /* ShineBoostVC.m */; };
+		0456D69C20C281B800CCEB82 /* AirconditioningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456D69B20C281B800CCEB82 /* AirconditioningVC.m */; };
+		0456D69F20C2835800CCEB82 /* EquipmentBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456D69E20C2835800CCEB82 /* EquipmentBaseVC.m */; };
+		0456D6A220C283A600CCEB82 /* ChargingpileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456D6A120C283A600CCEB82 /* ChargingpileVC.m */; };
+		0456D6A520C283C200CCEB82 /* ThermostatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456D6A420C283C200CCEB82 /* ThermostatVC.m */; };
+		0456D6A820C283DF00CCEB82 /* TheSocketVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456D6A720C283DF00CCEB82 /* TheSocketVC.m */; };
 		3306CE5E1EF3CCE1002699BA /* intergratorDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3306CE5D1EF3CCE1002699BA /* intergratorDeviceList.swift */; };
 		330E3DED1D0D6CF300DF75AE /* enabler.png in Resources */ = {isa = PBXBuildFile; fileRef = 330E3DEC1D0D6CF300DF75AE /* enabler.png */; };
 		330E3DEF1D0D6D2100DF75AE /* priority.png in Resources */ = {isa = PBXBuildFile; fileRef = 330E3DEE1D0D6D2100DF75AE /* priority.png */; };
@@ -977,6 +983,18 @@
 		0456D66820C2756E00CCEB82 /* EquipmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipmentView.m; sourceTree = "<group>"; };
 		0456D66920C2756E00CCEB82 /* ChooseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseButton.h; sourceTree = "<group>"; };
 		0456D66A20C2756E00CCEB82 /* StateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateView.m; sourceTree = "<group>"; };
+		0456D69720C2818800CCEB82 /* ShineBoostVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShineBoostVC.h; sourceTree = "<group>"; };
+		0456D69820C2818800CCEB82 /* ShineBoostVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShineBoostVC.m; sourceTree = "<group>"; };
+		0456D69A20C281B800CCEB82 /* AirconditioningVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirconditioningVC.h; sourceTree = "<group>"; };
+		0456D69B20C281B800CCEB82 /* AirconditioningVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirconditioningVC.m; sourceTree = "<group>"; };
+		0456D69D20C2835800CCEB82 /* EquipmentBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EquipmentBaseVC.h; sourceTree = "<group>"; };
+		0456D69E20C2835800CCEB82 /* EquipmentBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EquipmentBaseVC.m; sourceTree = "<group>"; };
+		0456D6A020C283A600CCEB82 /* ChargingpileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChargingpileVC.h; sourceTree = "<group>"; };
+		0456D6A120C283A600CCEB82 /* ChargingpileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChargingpileVC.m; sourceTree = "<group>"; };
+		0456D6A320C283C200CCEB82 /* ThermostatVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThermostatVC.h; sourceTree = "<group>"; };
+		0456D6A420C283C200CCEB82 /* ThermostatVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThermostatVC.m; sourceTree = "<group>"; };
+		0456D6A620C283DF00CCEB82 /* TheSocketVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheSocketVC.h; sourceTree = "<group>"; };
+		0456D6A720C283DF00CCEB82 /* TheSocketVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheSocketVC.m; sourceTree = "<group>"; };
 		3306CE5D1EF3CCE1002699BA /* intergratorDeviceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = intergratorDeviceList.swift; sourceTree = "<group>"; };
 		330A80141EB1D4B800C187FB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		330E3DEC1D0D6CF300DF75AE /* enabler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enabler.png; sourceTree = "<group>"; };
@@ -2416,10 +2434,22 @@
 		0456D65E20C2756E00CCEB82 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0456D65F20C2756E00CCEB82 /* ChooseEquipmentVC.h */,
-				0456D66020C2756E00CCEB82 /* HomeWattVC.m */,
-				0456D66120C2756E00CCEB82 /* ChooseEquipmentVC.m */,
 				0456D66220C2756E00CCEB82 /* HomeWattVC.h */,
+				0456D66020C2756E00CCEB82 /* HomeWattVC.m */,
+				0456D65F20C2756E00CCEB82 /* ChooseEquipmentVC.h */,
+				0456D66120C2756E00CCEB82 /* ChooseEquipmentVC.m */,
+				0456D69D20C2835800CCEB82 /* EquipmentBaseVC.h */,
+				0456D69E20C2835800CCEB82 /* EquipmentBaseVC.m */,
+				0456D6A020C283A600CCEB82 /* ChargingpileVC.h */,
+				0456D6A120C283A600CCEB82 /* ChargingpileVC.m */,
+				0456D6A320C283C200CCEB82 /* ThermostatVC.h */,
+				0456D6A420C283C200CCEB82 /* ThermostatVC.m */,
+				0456D6A620C283DF00CCEB82 /* TheSocketVC.h */,
+				0456D6A720C283DF00CCEB82 /* TheSocketVC.m */,
+				0456D69720C2818800CCEB82 /* ShineBoostVC.h */,
+				0456D69820C2818800CCEB82 /* ShineBoostVC.m */,
+				0456D69A20C281B800CCEB82 /* AirconditioningVC.h */,
+				0456D69B20C281B800CCEB82 /* AirconditioningVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2434,12 +2464,12 @@
 		0456D66420C2756E00CCEB82 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0456D66520C2756E00CCEB82 /* EquipmentView.h */,
-				0456D66620C2756E00CCEB82 /* ChooseButton.m */,
 				0456D66720C2756E00CCEB82 /* StateView.h */,
+				0456D66A20C2756E00CCEB82 /* StateView.m */,
+				0456D66520C2756E00CCEB82 /* EquipmentView.h */,
 				0456D66820C2756E00CCEB82 /* EquipmentView.m */,
 				0456D66920C2756E00CCEB82 /* ChooseButton.h */,
-				0456D66A20C2756E00CCEB82 /* StateView.m */,
+				0456D66620C2756E00CCEB82 /* ChooseButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -5238,7 +5268,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = sky;
+				ORGANIZATIONNAME = qwl;
 				TargetAttributes = {
 					337F9C7F1C71A6710016FE43 = {
 						CreatedOnToolsVersion = 7.2;
@@ -5831,6 +5861,7 @@
 				33742B421ED6859C0015F2EA /* ZJBLStoreShopTypeAlert.m in Sources */,
 				334FF0931CF53C7C001E6716 /* AsyncSocket.m in Sources */,
 				3363DD221C7C598B00D740FB /* countryViewController.m in Sources */,
+				0456D6A820C283DF00CCEB82 /* TheSocketVC.m in Sources */,
 				335614941CB3A0AA0071BAC9 /* commonTableViewController.m in Sources */,
 				334B8F561C914A6D00798A69 /* PNScatterChartData.m in Sources */,
 				335239061CD2067E00287EA9 /* RootPickerView.m in Sources */,
@@ -5857,6 +5888,7 @@
 				335456BC1C852ED900275478 /* TempViewController.m in Sources */,
 				33EA4A0B1E8F79050044A01A /* JHLineChart.m in Sources */,
 				334E9BF21CAD263700C8271F /* parameterPV.m in Sources */,
+				0456D6A520C283C200CCEB82 /* ThermostatVC.m in Sources */,
 				33FAD8E81F99C7AC0030EEC3 /* wifiToPvDataModel.m in Sources */,
 				3398B98620A2D93700BDD8CC /* ossNewDeviceTwoCell.m in Sources */,
 				3319E08D1D5AFB39006623A9 /* LWLoadingView.m in Sources */,
@@ -5876,6 +5908,7 @@
 				3367CB2E1C86803600EF460C /* DTKDropdownMenuView.m in Sources */,
 				334B8F211C91250300798A69 /* PopoverView.m in Sources */,
 				3343F3DB1C80405D009F69BC /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				0456D69F20C2835800CCEB82 /* EquipmentBaseVC.m in Sources */,
 				339844251FA82107006A15AD /* usbToWifiControlThree.m in Sources */,
 				336B511A1FE225A40094CD6E /* MCBarChartView.m in Sources */,
 				33860FF21EEABB9D004150FD /* PlantList.swift in Sources */,
@@ -6004,6 +6037,8 @@
 				335BF1F01D1008D5008EEE99 /* messgeSecondViewController.m in Sources */,
 				335D69B31D77BA4D00894D90 /* HcdTimeSheetView.m in Sources */,
 				3343F3EC1C805BD2009F69BC /* MBProgressHUD.m in Sources */,
+				0456D6A220C283A600CCEB82 /* ChargingpileVC.m in Sources */,
+				0456D69920C2818800CCEB82 /* ShineBoostVC.m in Sources */,
 				3383ACE11D7D6B3400C2F4A3 /* topAvViewController.m in Sources */,
 				336E04081ECAFFA60034BC86 /* deviceFirstCell.swift in Sources */,
 				3355F25A1C74178E006DDE5A /* meTableViewCell.m in Sources */,
@@ -6101,6 +6136,7 @@
 				33742B481ED6D6BD0015F2EA /* OssMessageViewController.m in Sources */,
 				334B8F521C914A6D00798A69 /* PNLineChartDataItem.m in Sources */,
 				33AF3D251D8E67210007D6C2 /* Toast+UIView.m in Sources */,
+				0456D69C20C281B800CCEB82 /* AirconditioningVC.m in Sources */,
 				3387B8A81FB181E00073FB35 /* WiFiSignalViewController.m in Sources */,
 				33744DE41CAE597A0065DC01 /* pvLogTableViewCell.m in Sources */,
 				3367CB511C86806700EF460C /* View+MASAdditions.m in Sources */,

@@ -18,9 +18,9 @@
 
 #define ManagerObjectModelFileName @"deviceCore" //数据库名字
 
-
-
-#define IMAGE(_NAME) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForAuxiliaryExecutable:_NAME]]
+//#define _NAME
+//#define IMAGE(_NAME) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForAuxiliaryExecutable:_NAME]]
+#define IMAGE(_NAME) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForAuxiliaryExecutable:([_NAME hasSuffix:@".png"])?(_NAME):([_NAME stringByAppendingString:@".png"])]]
 #define COLOR(_R,_G,_B,_A) [UIColor colorWithRed:_R / 255.0f green:_G / 255.0f blue:_B / 255.0f alpha:_A]
 #define NOW_SIZE [UIScreen mainScreen].bounds.size.width/320
 

@@ -1057,6 +1057,7 @@ NSLog(@"体验馆");
                                 if ([_OssFirst isEqualToString:@"Y"]) {
                                     ossFistVC *OSSView=[[ossFistVC alloc]init];
                                     OSSView.serverListArray=[NSMutableArray arrayWithArray:serverListArray];
+                                    /**家庭能管入口*/
 //                                    [self.navigationController pushViewController:OSSView animated:NO];
                                     [self.navigationController pushViewController:[HomeWattVC new] animated:YES];
 
